@@ -1,9 +1,9 @@
-describe('String Calculator', function() {
+describe('Electron Game', function() {
 	beforeEach(function() {
-		calculator = new StringCalculator();
+		game = new ElectronGame();
 	});
 
 	it('should return 0 for an empty string', function() {
-		expect(calculator.add('')).toEqual(0);
+		expect(game.add('')).toEqual(0);
 	});
 });
