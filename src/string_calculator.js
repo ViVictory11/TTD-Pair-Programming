@@ -5,8 +5,8 @@ ElectronGame.prototype.add = function(array_numbers) {
 	let counter = 0;
 
 	for(let i = 0; i < split_array.length; i++){
-		if(split_array[i] % 2 != 0){
-			sum = sum + split_array[i];
+		if(split_array[i] % 2){
+			sum += split_array[i];
 			counter++;
 		}
 	}
